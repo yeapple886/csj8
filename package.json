@@ -1,0 +1,14 @@
+{
+  "name": "csj8",
+  "version": "1.0.0",
+  "description": "财神日第8期",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8000 -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  }
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>财神日遇见8，全民一起发！</title>
+    <meta name="keywords" content="财神日，遇见8，发">
+    <meta name="description" content="财神日遇见8，全民一起发！">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <link rel="stylesheet" href="/app_css/c3/chaoshi/huodong/csr/common.css">
+    <link rel="stylesheet" href="/app_css/c3/chaoshi/huodong/csr/layout.css">
+    <script>
+        (function(){
+            var hf = window.location.href;
+            hf.indexOf("from")>-1 ? window.location.href = hf.replace(/from=(singlemessage|timeline|groupmessage)&/i,"") : !1;
+        })()
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="banner"><img src="/app_images/c3/chaoshi/huodong/csr/banner_15_11_28.png" alt=""></div>
+    <!-- 爆款产品 -->
+    <div class="hot">
+        <div class="hot-con">
+            <div class="hot-con-img"><img src="/app_images/c3/chaoshi/huodong/csr/hot_img03_15_11_12.png" alt=""/></div>
+            <div class="hot-con-text">
+                <h2>康寿宝—老年专属防癌险</h2>
+                <h1>低至63元/月</h1>
+                <p>免体检，50-70岁在线投保<br/>
+                    买即赠个资险&100+元话费！</p>
+            </div>
+            <a href="http://m.pingan.com/c3/chaoshi/huodong/caishenri/ksb20151118.shtml?cid=wap-chaoshi-PX" otype="button" otitle="康寿宝">马上了解</a>
+        </div>
+        <div class="hot-con">
+            <div class="hot-con-img"><img src="/app_images/c3/chaoshi/huodong/csr/hot_img01_15_11_12.png" alt=""/></div>
+            <div class="hot-con-text">
+                <h2>“我会用投资两字纹身”</h2>
+                <h1>安全、低起点、高收益</h1>
+                <p>用心赚一个新世界</p>
+            </div>
+            <a href="http://m.pingan.com/chaoshi/lujinsuo.shtml?cid=wapfmall-caishenri" otype="button" otitle="投资频道">立刻了解</a>
+        </div>
+        <div class="hot-con">
+            <div class="hot-con-img"><img src="/app_images/c3/chaoshi/huodong/csr/hot_img02_15_11_12.png" alt=""/></div>
+            <div class="hot-con-text">
+                <h2>旅行意外险</h2>
+                <h1>自由行、自助游首选</h1>
+                <p>交通意外双倍赔付</p>
+            </div>
+            <a href="http://m.pingan.com/chaoshi/lvyouxian.shtml?cid=hd-csr-cg" otype="button" otitle="旅行意外险">了解详情</a>
+        </div>
+    </div>
+    <!-- 预约产品 -->
+    <div class="next-perio">
+        <p align="center"><img src="/app_images/c3/chaoshi/huodong/csr/title1_15_11_12.png" style="width: 190px;" alt=""/></p>
+        <div class="next-perio-con">
+            <div class="next-perio-con-text">
+                <h2>爆款再临，期限超短</h2>
+                <h1>还有百元话费免费赚！</h1>
+                <p>我想抢话费</p>
+            </div>
+            <div class="next-perio-con-btn">
+                <a href="javascript:void(0);" id="remindMe" otype="button" otitle="享财神（五期）预约提醒（wap）">提醒我</a>
+            </div>
+        </div>
+    </div>
+    <footer class="pos_r">
+        <img src="/app_images/c3/chaoshi/huodong/csr/footer_15_11_12.png" alt=""/>
+        <a href="javascript:void(0);" id="openBox" class="pos_a" otype="button" otitle="活动区域立即开箱（wap）"></a>
+    </footer>
+</div>
+
+<!-- 马上开宝箱 -->
+<div class="pop" id="pChest">
+    <div class="close"></div>
+    <div class="textcon">
+        <p class="pt_20"><img src="/app_images/c3/chaoshi/huodong/csr/pop_img1.png" alt=""></p>
+        <ul>
+            <li>
+                <i>手机号</i>
+                <input type="text" class="inp_style" id="inpMobile" maxlength="11"/>
+                <p id="errorMobile">*请输入正确的手机号</p>
+            </li>
+            <li class="dn" id="imgBlock">
+                <i>图形验证码</i>
+                <input type="text" id="inpImgCode" class="inp_style inp_1" maxlength="4"/>
+                <span class="bg_fff"><img id="imgValCode" src="" alt=""></span>
+                <p id="errorImgcode">*请输入正确的图形验证码</p>
+            </li>
+            <li>
+                <i>短信验证码</i>
+                <input type="text" id="inpSMS" class="inp_style inp_1" maxlength="7"/>
+                <span id="getCode">获取验证码</span>
+                <p id="errorGetcode">*请输入正确的验证码</p>
+                <!-- <p id="errorModal"></p> -->
+            </li>
+        </ul>
+        <p align="center"><a href="javascript:void(0);" class="btn_red btn_w40" id="goOpenBox" otype="button" otitle="活动区域马上开宝箱（wap）">马上开宝箱</a></p>
+    </div>
+</div>
+<!-- 立即开通一账通宝 -->
+<div class="pop" id="pYztb">
+    <div class="close"></div>
+    <div class="textcon">
+        <p><img src="/app_images/c3/chaoshi/huodong/csr/pop_img2.png" alt=""></p>
+        <P align="center" class="c_e9432e mt_5">恭喜财神爷送你一账通宝红包</P>
+        <p align="center" class="c_e9432e f20">5元</p>
+        <p align="center"><a href="http://m.pingan.com/c2/sys/tuiguang/weixin2/index.html" class="btn_red btn_w62" otype="button" otitle="活动区域下载APP，开通一账通宝（wap）">下载APP，开通一账通宝</a></p>
+        <p align="center" class="mt_10 lh_16">本活动仅限在活动期间内开通一账通宝的新用户参加<br>红包将于活动结束后15个工作日内发放到一账通宝账户</p>
+    </div>
+</div>
+<!-- 设置开售提醒 -->
+<div class="pop" id="pSale">
+    <div class="close"></div>
+    <div class="textcon">
+        <P align="center" class="c_ea0e1c f18 pt_45"><span class="iconSet">设置开售提醒</span></P>
+        <ul>
+            <li>
+                <i>手机号</i>
+                <input type="text" class="inp_style" id="inpMobile_sale" maxlength="11"/>
+                <p id="errorMobile_sale">*请输入正确的手机号</p>
+            </li>
+            <li class="dn" id="imgBlock_sale">
+                <i>图形验证码</i>
+                <input type="text" id="inpImgCode_sale" class="inp_style inp_1" maxlength="4"/>
+                <span class="bg_fff"><img id="imgValCode_sale" src="" alt=""></span>
+                <p id="errorImgcode_sale">*请输入正确的图形验证码</p>
+            </li>
+            <li>
+                <i>短信验证码</i>
+                <input type="text" id="inpSMS_sale" class="inp_style inp_1" maxlength="7"/>
+                <span id="getCode_sale">获取验证码</span>
+                <p id="errorGetcode_sale">*请输入正确的验证码</p>
+            </li>
+        </ul>
+        <p align="center"><a href="javascript:void(0);" class="btn_red btn_w40" id="goRemid" otype="button" otitle="享财神（四期）预约提醒（wap）">确定</a></p>
+    </div>
+</div>
+<!-- 设置成功 -->
+<div class="pop" id="pSuccess">
+    <div class="close"></div>
+    <div class="textcon">
+        <P align="center" class="c_ea0e1c f18 pt_45"><span class="iconSet">设置成功</span></P>
+        <p align="center" class="mt_10">产品开售前，我们会以短信的形式第一时间通知您</p>
+        <p align="center"><a href="javascript:void(0);" class="btn_red btn_w40 mt_20" id="setOk" otype="button" otitle="享财神（四期）完成预约（wap）">确定</a></p>
+    </div>
+</div>
+
+<div class="mask" id="pMask"></div>
+<div class="gotop" id="gotoTop" style="display:none"><img src="/app_images/c3/chaoshi/huodong/csr/gotop.png" alt=""></div>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="/app_js/c3/chaoshi/huodong/csr/reqwest.js"></script>
+<script src="/app_js/c3/chaoshi/huodong/csr/share.js"></script>
+<script type="text/javascript" src="/app_js/c3/chaoshi/huodong/csr/base.js"></script>
+<script language="javascript" type="text/javascript">
+    function loadWTScript(a, b) {
+        var c = document.createElement("script");
+        c.type = "text/javascript",
+                c.async = !0,
+                c.src = a,
+                dcsReady(c, b),
+                document.getElementsByTagName("head")[0].appendChild(c)
+    }
+    function dcsReady(a, b) {
+        a.readyState ? a.onreadystatechange = function () {
+            ("loaded" == a.readyState || "complete" == a.readyState) && (a.onreadystatechange = null, b())
+        } : a.onload = function () {
+            b()
+        }
+    }
+    loadWTScript(window.location.protocol.indexOf('https:') == 0 ? 'https://pa-ssl.pingan.com/app_js/sdc/prd/sdc9.js' : 'http://www.pingan.com/app_js/sdc/prd/sdc9.js', function () {
+        if (typeof(_tag) != "undefined") {
+            _tag.dcsid = "dcs5w0txb10000wocrvqy1nqm_6n1p";  //dcsid参数用于设置日志记录在哪个文件里
+            _tag.DCSext.platform = "pingan-wap";  //平台名字
+            var s = _tag.dcsGetIdAsync();
+            if (s)
+                dcsReady(s, function () {
+                    _tag.dcsCollect()
+                });
+            else
+                _tag.dcsCollect();
+        }
+    })
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik-stats.pingan.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 8]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik-stats.pingan.com/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</body>
+</html>

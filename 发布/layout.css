@@ -1,0 +1,193 @@
+
+/* 爆款产品 */
+.hot{
+	width: 94%;
+	padding: 0 3% 5%;
+	background: #362240;
+	overflow: hidden;
+}
+
+.hot-con{
+	height: 102px;
+	background: #fff;
+	border-radius: 5px;
+	border-top: 3px solid #ffc400;
+	margin-top: 15px;
+	color: #2b2a2a;
+	position: relative;
+}
+.hot-con-img,
+.hot-con-text,
+.hot-con a,
+.next-perio-con-text,
+.next-perio-con-btn{
+	position: absolute;
+	top: 54%;
+	-webkit-transform: translateY(-50%);
+}
+.hot-con-img{
+	width: 15%;
+	left: 3%;
+	top: 52%;
+}
+.hot-con-img img{ max-height: 94px;}
+.hot-con-text{
+	width: 50%;
+	left: 22%;
+}
+.hot-con-text p,
+.next-perio-con-text p{
+	transform: scale(0.8, 0.8);
+	transform-origin: 0 0;
+	line-height: 16px;
+}
+.hot-con a{
+	width: 23%;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	background: #ff1844;
+	font-weight: bold;
+	left: 73%;
+}
+
+/* 下期预约 */
+.next-perio{
+	margin-top: 30px;
+}
+.next-perio-con{
+	width: 94%;
+	height: 90px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 5px;
+	border-top: 3px solid #e83e62;
+	position: relative;
+}
+.next-perio-con-text{
+	width: 50%;
+	left: 5%;
+}
+.next-perio-con-text h2{font-weight: normal;}
+.next-perio-con-btn{
+	width: 25%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ff006c;
+	font-weight: bold;
+	text-align: center;
+	left: 70%;
+}
+.next-perio-con-btn a{
+	background: url("/app_images/c3/chaoshi/huodong/csr/icon01_15_11_12.png") left center no-repeat;
+	background-size: 13px auto;
+	padding-left: 18px;
+	color: #f42652;
+}
+
+h1{
+	font-size: 15px;
+	color: #ff1844;
+	margin: 5px 0;
+}
+
+footer { margin-top: 38px; }
+footer a{width:34%; height: 69%; right: 4%; top: 17%; display: block; }
+.gotop{ width: 32px; height: 32px; position: fixed; bottom: 15px; right: 15px; z-index: 999;}
+
+/* ************弹窗内容************ */
+.mask{width: 100%;height:100%;position: fixed; top: 0;left: 0; display:none; background-color: rgba(0, 0, 0, 0.6); z-index: 1;}
+.pop{
+	display: none;
+	width: 88%;
+	padding:1%;
+	top: 50%;
+	left: 5%;
+	background: #ca0634;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	position: fixed;
+	z-index: 9;
+}
+
+.pop .textcon{background: #fcf1db; padding-bottom:20px; min-height: 170px;}
+.pop .textcon ul{overflow: hidden;}
+.pop .textcon li{ width: 100%; margin-top: 10px; display: inline-block;}
+.pop .textcon li.dn{ display: none;}
+.pop .textcon li p{ padding-left: 30%; color: #f00;display: inline-block; margin-top: 6px; display: none;}
+.pop .textcon li i{ width: 28%; font-style: normal; text-align: right; color: #565656; float: left; margin-right:5px; line-height: 26px;}
+.pop .textcon li span{ width: 27%; height: 26px; background: #d3d3d3; line-height: 26px; color: #515151; text-align: center; margin-left: 6px; float: left; font-size:10px; }
+.pop .textcon li span.bg_fff{background-color: #fff;}
+.pop .textcon li span img{ width:90%;height: 100%; }
+.iconSet{ background: url(/app_images/c3/chaoshi/huodong/csr/icon01.png) 0 center/17px auto no-repeat; padding-left: 22px;}
+.iconSetOk{ background: url(/app_images/c3/chaoshi/huodong/csr/icon02.png) 0 center/17px auto no-repeat; padding-left: 22px;}
+
+.result{ width: 88%; background: #a9242a; color: #fff; margin:10px auto 0; padding:3%; border-radius: 8px; line-height: 18px; position: relative;}
+.result:before{
+	content:"";
+	width:0;
+    height:0;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    border-bottom:12px solid #a9242a;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+.inp_style{ width: 57%; height: 24px; background: #fff; border: 1px solid #e4cad5; color: #565656; font-size:12px; padding:0 2%; line-height: 24px; outline: none; float: left; }
+.inp_1{ width: 28%; }
+.inp_set{ width: 76%; height: 28px; font-size: 16px; text-align: center; color: #cecece;background: #fff; border: 1px solid #e4cad5; float: none;}
+
+.close{ width: 20px; height: 20px; background: url(/app_images/c3/chaoshi/huodong/csr/close.png) center/8px auto no-repeat; position: absolute; top: 6px; right: 6px;}
+.btn_red{
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background: #ea0e1c;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 12px;
+	font-size: 14px;
+	-webkit-box-shadow: 2px 2px 2px #dad1bd;
+  	-moz-box-shadow: 2px 2px 2px #dad1bd;
+  	box-shadow: 2px 2px 2px #dad1bd;
+}
+.btn_w40{ width: 40%; }
+.btn_w45{ width: 45%; }
+.btn_w62{ width: 62%; }
+
+/*公共样式*/
+.pos_r{position: relative;}
+.pos_a{position: absolute;}
+
+/*font*/
+.f12{ font-size: 12px; }
+.f15{ font-size: 15px; }
+.f18{ font-size: 18px; }
+.f20{ font-size: 20px; }
+.f22{ font-size: 22px; }
+.f24{ font-size: 24px; }
+/*font-color*/
+.c_f60{ color: #f60;}
+.c_e9432e{color: #e9432e;}
+.c_ea0e1c{color: #ea0e1c;}
+/*line-height*/
+.lh_16{line-height: 16px;}
+
+/*margin*/
+.mt_5{margin-top: 5px;}
+.mt_10{margin-top: 10px;}
+.mt_20{margin-top: 20px;}
+/*padding*/
+.pt_20{padding-top: 20px;}
+.pt_45{padding-top: 45px;}
+
+
+.dn{display: none;}
+.db{display: block;}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>财神日遇见8，全民一起发！</title>
+    <meta name="keywords" content="财神日，遇见8，发">
+    <meta name="description" content="财神日遇见8，全民一起发！">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script>
+        (function(){
+            var hf = window.location.href;
+            hf.indexOf("from")>-1 ? window.location.href = hf.replace(/from=(singlemessage|timeline|groupmessage)&/i,"") : !1;
+        })()
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="banner"><img src="images/banner_16_1_14.png" alt=""></div>
+    <!-- 爆款产品 -->
+    <div class="hot">
+        <div class="hot-con">
+            <div class="hot-con-text">
+                <h2>零活宝-14日聚财   </h2>
+                <h1>锁定期内，年化收益预期可达10% </h1>
+                <p>再送50元可现金抵用（投资满5000可以用）</p>
+            </div>
+            <a href="" otype="button" otitle="零活宝-14日聚财 ">我要抢购</a>
+        </div>
+
+        <div class="hot-con">
+            <div class="hot-con-text">
+                <h2>平安众加稳赢1号1期</h2>
+                <h1>年化收益6.2%，40天，1000起投</h1>
+                <p>限量发售，先到先得，购买就送30元本来生活苹果券</p>
+            </div>
+            <a href="https://item.zhong.com/m/item/detail.do?productId=114&utm_source=pingan&utm_campaign=CSR" otype="button" otitle="平安众加稳赢1号1期">我要抢购</a>
+        </div>
+
+        <!-- <div class="hot-con">
+            <div class="hot-con-text">
+                <h2></h2>
+                <h1>最高预期年化收益率7%</h1>
+                <p>低至1000元起</p>
+            </div>
+            <a href="" otype="button" otitle="平安众加">我要抢购</a>
+        </div> -->
+    </div>
+    <!-- 预约产品 -->
+
+    <footer class="pos_r">
+        <img src="images/footer_15_11_12.png" alt=""/>
+        <a href="javascript:void(0);" id="openBox" class="pos_a" otype="button" otitle="活动区域立即开箱（wap）"></a>
+    </footer>
+</div>
+
+<!-- 马上开宝箱 -->
+<div class="pop" id="pChest">
+    <div class="close"></div>
+    <div class="textcon">
+        <p class="pt_20"><img src="images/pop_img1.png" alt=""></p>
+        <ul>
+            <li>
+                <i>手机号</i>
+                <input type="text" class="inp_style" id="inpMobile" maxlength="11"/>
+                <p id="errorMobile">*请输入正确的手机号</p>
+            </li>
+            <li class="dn" id="imgBlock">
+                <i>图形验证码</i>
+                <input type="text" id="inpImgCode" class="inp_style inp_1" maxlength="4"/>
+                <span class="bg_fff"><img id="imgValCode" src="" alt=""></span>
+                <p id="errorImgcode">*请输入正确的图形验证码</p>
+            </li>
+            <li>
+                <i>短信验证码</i>
+                <input type="text" id="inpSMS" class="inp_style inp_1" maxlength="7"/>
+                <span id="getCode">获取验证码</span>
+                <p id="errorGetcode">*请输入正确的验证码</p>
+                <!-- <p id="errorModal"></p> -->
+            </li>
+        </ul>
+        <p align="center"><a href="javascript:void(0);" class="btn_red btn_w40" id="goOpenBox" otype="button" otitle="活动区域马上开宝箱（wap）">马上开宝箱</a></p>
+    </div>
+</div>
+<!-- 立即开通一账通宝 -->
+<div class="pop" id="pYztb">
+    <div class="close"></div>
+    <div class="textcon">
+        <p><img src="images/pop_img2.png" alt=""></p>
+        <P align="center" class="c_e9432e mt_5">恭喜财神爷送你一账通宝红包</P>
+        <p align="center" class="c_e9432e f20">5元</p>
+        <p align="center"><a href="http://m.pingan.com/c2/sys/tuiguang/weixin2/index.html" class="btn_red btn_w62" otype="button" otitle="活动区域下载APP，开通一账通宝（wap）">下载APP，开通一账通宝</a></p>
+        <p align="center" class="mt_10 lh_16">本活动仅限在活动期间内开通一账通宝的新用户参加<br>红包将于活动结束后15个工作日内发放到一账通宝账户</p>
+    </div>
+</div>
+<!-- 设置开售提醒 -->
+<div class="pop" id="pSale">
+    <div class="close"></div>
+    <div class="textcon">
+        <P align="center" class="c_ea0e1c f18 pt_45"><span class="iconSet">设置开售提醒</span></P>
+        <!-- <p align="center"><input type="text" id="inpSale" class="inp_set mt_10" placeholder="请输入接收提醒的手机号码" maxlength="11"></p>
+        <p align="center" id="errorRemid" class="c_ea0e1c mt_10"></p> -->
+        <ul>
+            <li>
+                <i>手机号</i>
+                <input type="text" class="inp_style" id="inpMobile_sale" maxlength="11"/>
+                <p id="errorMobile_sale">*请输入正确的手机号</p>
+            </li>
+            <li class="dn" id="imgBlock_sale">
+                <i>图形验证码</i>
+                <input type="text" id="inpImgCode_sale" class="inp_style inp_1" maxlength="4"/>
+                <span class="bg_fff"><img id="imgValCode_sale" src="" alt=""></span>
+                <p id="errorImgcode_sale">*请输入正确的图形验证码</p>
+            </li>
+            <li>
+                <i>短信验证码</i>
+                <input type="text" id="inpSMS_sale" class="inp_style inp_1" maxlength="7"/>
+                <span id="getCode_sale">获取验证码</span>
+                <p id="errorGetcode_sale">*请输入正确的验证码</p>
+            </li>
+        </ul>
+        <p align="center"><a href="javascript:void(0);" class="btn_red btn_w40" id="goRemid" otype="button" otitle="享财神（四期）预约提醒（wap）">确定</a></p>
+    </div>
+</div>
+<!-- 设置成功 -->
+<div class="pop" id="pSuccess">
+    <div class="close"></div>
+    <div class="textcon">
+        <P align="center" class="c_ea0e1c f18 pt_45"><span class="iconSet">设置成功</span></P>
+        <p align="center" class="mt_10">产品开售前，我们会以短信的形式第一时间通知您</p>
+        <p align="center"><a href="javascript:void(0);" class="btn_red btn_w40 mt_20" id="setOk" otype="button" otitle="享财神（四期）完成预约（wap）">确定</a></p>
+    </div>
+</div>
+
+<div class="mask" id="pMask"></div>
+<div class="gotop" id="gotoTop" style="display:none"><img src="images/gotop.png" alt=""></div>
+<script>
+
+</script>
+<script src="js/reqwest.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script>
+    // function IsPC() {
+    //     var userAgentInfo = navigator.userAgent;
+    //     var Agents = ["Android", "iPhone",
+    //                 "SymbianOS", "Windows Phone",
+    //                 "iPad", "iPod"];
+    //     var flag = true;
+    //     for (var v = 0; v < Agents.length; v++) {
+    //         if (userAgentInfo.indexOf(Agents[v]) > 0) {
+    //             flag = false;
+    //             break;
+    //         }
+    //     }
+    //     return flag;
+    // }
+
+    // if (IsPC()){
+    //     window.location.href="http://fmall.pingan.com/8";
+    // }
+</script>
+<script>
+    // var userA = navigator.userAgent;
+    // document.getElementById("download").addEventListener("click", function(){
+    //     if (userA.indexOf("iPhone") > -1 || userA.indexOf("iPad") > -1) {
+    //         window.location.href="http://m.pingan.com/c3/xiazai/download_app/chaoshi/cfb_fmall_ios.jsp";
+    //     } else if(userA.indexOf("Android") > -1) {
+    //         window.location.href="m.pingan.com/c3/xiazai/download_app/chaoshi/cfb_fmall_android.jsp";
+    //     }
+    // })
+</script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script language="javascript" type="text/javascript">
+    function loadWTScript(a, b) {
+        var c = document.createElement("script");
+        c.type = "text/javascript",
+                c.async = !0,
+                c.src = a,
+                dcsReady(c, b),
+                document.getElementsByTagName("head")[0].appendChild(c)
+    }
+    function dcsReady(a, b) {
+        a.readyState ? a.onreadystatechange = function () {
+            ("loaded" == a.readyState || "complete" == a.readyState) && (a.onreadystatechange = null, b())
+        } : a.onload = function () {
+            b()
+        }
+    }
+    loadWTScript(window.location.protocol.indexOf('https:') == 0 ? 'https://pa-ssl.pingan.com/app_js/sdc/prd/sdc9.js' : 'http://www.pingan.com/app_js/sdc/prd/sdc9.js', function () {
+        if (typeof(_tag) != "undefined") {
+            _tag.dcsid = "dcs5w0txb10000wocrvqy1nqm_6n1p";  //dcsid参数用于设置日志记录在哪个文件里
+            _tag.DCSext.platform = "pingan-wap";  //平台名字
+            var s = _tag.dcsGetIdAsync();
+            if (s)
+                dcsReady(s, function () {
+                    _tag.dcsCollect()
+                });
+            else
+                _tag.dcsCollect();
+        }
+    })
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik-stats.pingan.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 8]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik-stats.pingan.com/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</body>
+</html>
